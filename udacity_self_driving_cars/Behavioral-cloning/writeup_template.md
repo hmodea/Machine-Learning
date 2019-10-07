@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image1]: ./Readme_images/initial_distribution.png "Initial steering angle distribution"
 [image2]: ./Readme_images/adapted_distribution.png "Adapted steering angle distribution"
 [image3]: ./Readme_images/Sample_image.png "Sample Image"
-[image4]: ./Readme_images/flipped_image.png.png "Flipped Image"
+[image4]: ./Readme_images/flipped_image.png "Flipped Image"
 [image5]: ./Readme_images/noised_image.png "Noised Image"
 [image6]: ./Readme_images/Inverted_channels_image.png "Inverted Channels Image"
 [image7]: ./Readme_images/altered_brightness_image.png "Altered Brightness Image"
@@ -92,7 +92,7 @@ Before the image is input to the model it is subjected to an online preprocessin
 
 The model is then utilized to drive the car autonomously in the simulator using the drive.py script. It is worth noting that the images from the simulator and subjected to the same preprocessing pipeline before the steering angle is predicted.
 
-Finally, a video for the self-driving car on the first track is generated [video](./output_video.mp4)using the video.py script.
+Finally, a video for the self-driving car on the first track is [generated](./output_video.mp4)using the video.py script.
 
 
 #### 6. Possible further improvements
